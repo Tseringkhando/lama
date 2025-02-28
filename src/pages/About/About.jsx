@@ -24,6 +24,27 @@ const About = () => {
         code. If you’d like to connect, collaborate, or simply share ideas, feel
         free to reach out!
       </p>
+
+      <div className={styles.blogContainer}>
+        <h1>My Development Journey</h1>
+        <article>
+          <h2>Lessons Learned</h2>
+          <p>
+            Sharing my experiences, challenges, and solutions encountered during
+            my development journey.
+          </p>
+          <span>
+            <a href="#">Expand</a>
+          </span>
+        </article>
+        <article>
+          <h2>What I Learned?</h2>
+          <p>A summary of what I learned from these projects.</p>
+          <span>
+            <a href="#">Expand</a>
+          </span>
+        </article>
+      </div>
     </main>
   );
 };
